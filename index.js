@@ -1,9 +1,6 @@
-// Import stylesheets
-import './style.css';
-
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+appDiv.innerHTML = `<h1>Primes in Numbers</h1>`;
 
 function primeFactorDecomposition(n) {
   let factors = "";
